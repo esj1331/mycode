@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+
+
+game_start = "yes"
+
+while game_start == "yes":
+	print("You wake up alone in an all white room with no windows. On a table in front of you is a magical loo		king rainbow colored pill. Will you take the pill?)
+	answer_1 = input("yes or no?")
