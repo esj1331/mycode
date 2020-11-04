@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+
+def q1():
+    print("Do you have a problem?")
+    ans= input("YES or NO")
+
+
+    if ans == "yes":
+        q2()
+
+    elif ans == "no":
+        print("Then dont worry!")
+
+
+def q2():
+    print("Can you do something about it?")
+    ans= input("YES or NO")
+
+    if ans == "yes":
+        q3()
+
+
+    elif ans == "no":
+        print("Then dont worry!")
+
+
+
+def q3():
+    print("Are you still worried?!") 
+    ans= input("YES or NO")
+
+    if ans == "yes":
+        print("Dont worry about a thing, cuz every little thing is gonna be alright!")
+
+    elif ans == "no":
+        print("Chill out bro!")
+
+
+        
+
+
+q1()
+
+
+
